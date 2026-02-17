@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.typekit.net/fmq4afm.css">
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="icon" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>P.D.F.</title>
@@ -21,7 +22,7 @@
             <a href="{{ course.url }}">
                 <div class="course">
                     <p>Current Course: <em>{{ course.title }}</em></p>
-                    <p>Taught by {{ course.instructor }}</p>
+                    <p>Taught by <a href="{{ course.instructorLink }}" style="text-decoration: underline;" target="_blank">{{ course.instructor }}</p></a>
                     <p>{{ course.dateRange }}</p>
                     <p>{{ course.location }}</p>
                     {% if course.enrollmentStatus == true %}
