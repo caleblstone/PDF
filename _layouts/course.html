@@ -25,7 +25,7 @@
                     <p>{{ course.dateRange }}</p>
                     <p>{{ course.location }}</p>
                     {% if course.enrollmentStatus == true %}
-                        <a href="{{ course.applicationLink}}" style="color: #69BF7C; text-decoration: underline;">Enrollment OPEN</a>
+                        <a href="{{ course.applicationLink}}" style="color: #69BF7C; text-decoration: underline;">Enrollment is now OPEN</a>
                     {% endif %}
                     {% if course.enrollmentStatus == false %}
                         <p style="color: #ED3542;">Enrollment CLOSED</p>
