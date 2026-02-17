@@ -1,0 +1,72 @@
+---
+---
+
+body,html{
+    margin: 0px;
+    padding: 0px;
+    font-family: "eb-garamond", serif;
+    font-size: 1em;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+#contentBox{
+    margin-top: 64px;
+    margin-left: 64px;
+    
+    
+}
+
+header{
+    h1{
+        font-size: 1em;
+        font-weight: normal;
+        margin: 0px;
+    }
+    margin-bottom: 32px;
+}
+
+.course{
+    cursor: pointer;
+    width: 40vw;
+
+    p{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    a{
+        
+    }
+    
+}
+
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    body, html {
+        font-size: 0.95em;
+    }
+
+    #contentBox{
+        margin-top: 32px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    header{
+        margin-bottom: 16px;
+        h1{
+            font-size: 1.2em;
+        }
+    }
+
+    .course{
+        width: 90vw;
+    }
+
+}
+

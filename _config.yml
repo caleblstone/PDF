@@ -1,0 +1,30 @@
+
+title: PDF
+email: bycalebstone@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  P.D.F. is an experimental school that takes the syllabus seriously as a form unto itself.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "pdf-institute.com" # the base hostname & protocol for your site, e.g. http://example.com
+author: Thomas Mar Wee
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+
+collections_dir: contentFolder
+
+collections:
+  courses:
+    output: true
+  about:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "courses"
+    values:
+      layout: course
