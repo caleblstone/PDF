@@ -16,7 +16,7 @@ body,html{
 #contentBox{
     margin-top: 64px;
     margin-left: 64px;
-    
+    width: 40vw;
     
 }
 
@@ -31,7 +31,7 @@ header{
 
 .course{
     cursor: pointer;
-    width: 40vw;
+   
 
     p{
         margin: 0px;
@@ -40,6 +40,12 @@ header{
 
     a{
         
+    }
+    
+}
+.course:hover{
+    p,a,em{
+        color: grey;
     }
     
 }

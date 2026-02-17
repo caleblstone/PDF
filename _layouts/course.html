@@ -13,32 +13,17 @@
 </head>
 <body>
     <div id="contentBox">
-        <header>
-            <a href="/."><h1>P.D.F.</h1></a>
-        </header>
+        {% include header.html %}
+        {% include currentCourse.html %}
+        <br><hr><br>
 
         {% for course in site.courses %}
             {% if course.activeCourse %}
-            <a href="{{ course.url }}">
-                <div class="course">
-                    <p>Current Course: <em>{{ course.title }}</em></p>
-                    <p>Taught by <a href="{{ course.instructorLink }}" style="text-decoration: underline;" target="_blank">{{ course.instructor }}</p></a>
-                    <p>{{ course.dateRange }}</p>
-                    <p>{{ course.location }}</p>
-                    {% if course.enrollmentStatus == true %}
-                        <a href="{{ course.applicationLink}}" style="color: #69BF7C; text-decoration: underline;">Enrollment is now OPEN</a>
-                    {% endif %}
-                    {% if course.enrollmentStatus == false %}
-                        <p style="color: #ED3542;">Enrollment CLOSED</p>
-                    {% endif %}
-
-                   <br><br> <hr><br>
-                    <p>{{ course.description }} </p>
-                </div>
-                
-            </a>
+            
+            <p>{{ course.description }}</p>
             {% endif %}
         {% endfor %}
+        
     </div>
 
     
