@@ -46,7 +46,7 @@
 			const p = randomFrom(P_WORDS);
 			const d = randomFrom(D_WORDS);
 			const f = randomFrom(F_WORDS);
-			header.textContent = `${p} ${d} ${f}`;
+			header.textContent = `( ${p} ${d} ${f} )`;
 		});
 
 		header.addEventListener('pointerleave', () => {
