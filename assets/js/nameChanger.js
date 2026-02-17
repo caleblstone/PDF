@@ -1,16 +1,20 @@
 const P_WORDS = [
-	'Procrastination', 'Praxis', 'Pedagogy', 'Poetics', 'Phenomenology',
-	'Perception', 'Practice', 'Politics', 'Projection', 'Process', "Prestigious", "Prententious"
+	'Procrastination', 'Praxis', 'Pedagogy', 'Poetics', 'Phenomenological',
+	'Perception', 'Practice', 'Politics', 'Projection', 'Process', "Prestigious", 
+	"Prententious", 'Populist', 'Political', 'Potential', 'Potent', 'Procedural',
+	'Pompous', 'Poetic', 'Picturesque', 'Presenting'
 ];
 
 const D_WORDS = [
     'Discipline', 'Deliberation', 'Desire', 'Dialectic', 'Dreams',
-    'Discourse', 'Dissonance', 'Decision', 'Discovery', 'Duration', 'Dialogue'
+    'Discourse', 'Dissonance', 'Decision', 'Discovery', 'Duration', 'Dialogue',
+	'Decadence', 'Donation', 'Demon', 'Decoded', 'Devilish', 'Durable'
 ];
 
 const F_WORDS = [
     'Formation', 'Fiction', 'Futurity', 'Freedom', 'Form',
-    'Failure', 'Function', 'Flow', 'Feeling', 'Frame', 'Facility'
+    'Failure', 'Function', 'Flow', 'Feeling', 'Frame', 'Facility',
+	'Faculty', 'Flamboyance', 'Fortification'
 ];
 
 // Utility: pick a random item from an array
