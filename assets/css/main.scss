@@ -16,8 +16,7 @@ body,html{
 #contentBox{
     margin-top: 64px;
     margin-left: 64px;
-    width: 40vw;
-    
+    margin-right: 64px;
 }
 
 header{
@@ -27,10 +26,22 @@ header{
         margin: 0px;
     }
     margin-bottom: 32px;
+
+    .headerBox{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+.courseBox{
+    width: 40vw;
 }
 
 .course{
     cursor: pointer;
+    width: 40vw;
    
 
     p{
@@ -47,6 +58,25 @@ header{
     p,a,em{
         color: grey;
     }
+    
+}
+
+#info{
+    a:hover {
+        color: #ED3542;
+    }  
+}
+
+#aboutBox{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+    #aboutText{
+        width: 30vw;
+        text-align: right;
+    }
+    
     
 }
 
@@ -73,6 +103,19 @@ header{
 
     .course{
         width: 90vw;
+    }
+    .courseBox{
+        width: 90vw;
+    }
+    #aboutBox{
+        
+    
+        #aboutText{
+            width: 90vw;
+            text-align: left;
+        }
+        
+        
     }
 
 }

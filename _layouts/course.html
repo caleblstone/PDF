@@ -14,7 +14,8 @@
 <body>
     <div id="contentBox">
         {% include header.html %}
-        {% include currentCourse.html %}
+        <div class="courseBox">
+            {% include currentCourse.html %}
         <br><hr>
 
         {% for course in site.courses %}
@@ -23,6 +24,9 @@
             <p>{{ course.description }}</p>
             {% endif %}
         {% endfor %}
+
+        </div>
+        
         
     </div>
 

@@ -1,5 +1,10 @@
 const P_WORDS = [
-	'Project', 'Procrastination', 'Praxis', 'Pedagogy', 'Pedagogical', 'Poetic', 'Phenomenological','Perception', 'Practice', 'Politics', 'Projection', 'Process', 'Prestigious', 'Prententious', 'Populist', 'Political', 'Potential', 'Potent', 'Procedural', 'Pompous', 'Poetic', 'Picturesque', 'Presenting', 'Paradoxical', 'Piratic', 'Picaresque','Proctored', 'Protological','Pathological', 'Pathetic'
+	'Project', 'Procrastination', 'Praxis', 'Pedagogy', 'Pedagogical', 'Poetic', 
+    'Phenomenological','Perception', 'Practice', 'Politics', 'Projection', 'Process', 
+    'Prestigious', 'Prententious', 'Populist', 'Political', 'Potential', 'Potent', 
+    'Procedural', 'Pompous', 'Poetic', 'Picturesque', 'Presenting', 'Paradoxical', 
+    'Piratic', 'Picaresque','Proctored', 'Protological','Pathological', 'Pathetic',
+    'Proustian', 'Pilfered', 'Pious'
 ];
 
 const D_WORDS = [
@@ -7,14 +12,15 @@ const D_WORDS = [
     'Discourse', 'Dissonance', 'Decision', 'Discovery', 'Duration', 'Dialogue',
 	'Decadence', 'Donation', 'Demon', 'Decoded', 'Devilish', 'Durable', 
     'Derivation','Deviation','Deviant', 'Daliance','Dilatory','Denouement', 
-    'Dilittante','Derivitive','Draconian'
+    'Dilittante','Derivitive','Draconian', 'Dentata','Deleterious', '-Dome',
+    '”Drip”','Dexterous', 'Denouncement'
 ];
 
 const F_WORDS = [
     'Formation', 'Fiction', 'Futurity', 'Freedom', 'Form',
     'Failure', 'Function', 'Flow', 'Feeling', 'Frame', 'Facility',
 	'Faculty', 'Flamboyance', 'Fortification', 'Front', '-Fest', 'Fricasseé', 'Fucker(mother)', 'Font', 'Frenetic', 'Fabulation', 
-    'Fornicatory', 'Fasnacht'
+    'Fornicatory', 'Fasnacht', 'Fantacy', 'Fancy'
 ];
 
 // Utility: pick a random item from an array
