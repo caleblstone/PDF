@@ -19,8 +19,9 @@ const D_WORDS = [
 const F_WORDS = [
     'Formation', 'Fiction', 'Futurity', 'Freedom', 'Form',
     'Failure', 'Function', 'Flow', 'Feeling', 'Frame', 'Facility',
-	'Faculty', 'Flamboyance', 'Fortification', 'Front', '-Fest', 'Fricasseé', 'Fucker(mother)', 'Font', 'Frenetic', 'Fabulation', 
-    'Fornicatory', 'Fasnacht', 'Fantacy', 'Fancy'
+	'Faculty', 'Flamboyance', 'Fortification', 'Front', '-Fest', 
+    'Fricasseé', 'Fucker(mother)', 'Font', 'Frenetic', 'Fabulation', 
+    'Fornicatory', 'Fasnacht', 'Fantasy', 'Fancy'
 ];
 
 // Utility: pick a random item from an array
