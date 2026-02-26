@@ -3,7 +3,7 @@ title: "Procrastination Literature"
 layout: course
 instructor: "Izzy Ampil"
 instructorLink: "https://www.izzyampil.com/"
-dateRange: "Thursdays, 4/2 - 5/7"
+dateRange: "Thursdays, 4/9 - 5/14"
 location: "Location TBD"
 enrollmentStatus: true
 applicationLink: ""
