@@ -1,18 +1,20 @@
-{% for course in site.courses %}
-            {% if course.activeCourse %}
-            <a href="{{ course.url }}">
-                <div class="course">
-                    <p>Current Course: <em>{{ course.title }}</em></p>
-                    <p>Taught by <a href="{{ course.instructorLink }}" style="text-decoration: underline;" target="_blank">{{ course.instructor }}</p></a>
-                    <p>{{ course.dateRange }}</p>
-                    <p>{{ course.location }}</p>
-                    {% if course.enrollmentStatus == true %}
-                        <a href="{{ course.applicationLink}}" style="color: #69BF7C; text-decoration: underline;">Click Here to Enroll</a>
-                    {% endif %}
-                    {% if course.enrollmentStatus == false %}
-                        <p style="color: #ED3542;">Enrollment CLOSED</p>
-                    {% endif %}
-                </div>
-            </a>
-            {% endif %}
-        {% endfor %}
+<div class="courseBox">
+    <p style="text-decoration: underline;">Upcoming Courses:</p>
+    <p><em>Coming Soon...</em></p>
+</div>
+
+<div class="courseBox" style="margin-top: 32px;">
+    <p style="text-decoration: underline;">Past Courses:</p>
+    {% for course in site.courses %}
+        {% if course.pastCourse %}
+        <a href="{{ course.url }}" style="display: block;">
+            <div class="course">
+                <p><em>{{ course.title }}</em></p>
+                <p>Taught by {{ course.instructor }}</p>
+                <p>{{ course.dateRange }}</p>
+                <p>{{ course.location }}</p>
+            </div>
+        </a>
+        {% endif %}
+    {% endfor %}
+</div>
